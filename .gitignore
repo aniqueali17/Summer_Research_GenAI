@@ -1,0 +1,9 @@
+# Ignore virtual environment folder
+.venv/
+
+# Ignore API key file
+api.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
