@@ -1,0 +1,15 @@
+Meeting on 22nd July 
+
+# refreshing issue 
+# use while or loop again until token is avaliable so error message is not displayed
+#use it after 10 times - sleep so 1 second or 0.5 second and check again so be in loop so error is not displayed 
+# this will be used for any function any communication with tokens 
+
+# formating output 
+# display in better format remove those ** 
+# for mcq do you want to display it as brightspave quix or pdf or csv format? 
+# make it look good!!
+# format in plain text, woolclap, brightspace, formated text
+# difficult part is parsing text 
+
+# give a diffrent mcq or theory or mixed option 
