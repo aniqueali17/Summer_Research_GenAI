@@ -45,7 +45,7 @@ def ask_groq(text, prompt, max_retries= 10, delay= 3.5):
         try:
             response = requests.post(url, json=payload, headers=headers, timeout=30)
             response.raise_for_status()
-            return response.json()["choices"][0]["message"]["content"].strip()
+            return response.json()["choices"][0]["message"]["content"].strip().replace("*","")
         except Exception as e:
             attempt += 1
             print(f"⚠️ Attempt {attempt} failed: {e}")
